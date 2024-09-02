@@ -1,0 +1,334 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Red+Rose:wght@300..700&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Ramabhadra&family=Red+Rose:wght@300..700&family=Reggae+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gridlayout{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    /* height: 100vh;
+    background-color: rgb(160, 185, 222); */
+}
+::selection{
+   /* user-select: none; */
+   background-color: red;
+   color: white;
+}
+
+nav{
+    background-color: black;
+}
+.main{
+    position: relative;
+}
+.logo{
+    color: white;
+}
+
+.header{
+    display: flex;
+    gap: 60px;
+}
+.header li{
+    list-style-type: none;
+    font-size: large;
+}
+.header li:hover{
+   content:'\00AE';
+}
+.header li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.header li a:hover {
+   color: green;
+   
+}
+
+.headermain{
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.gridlayout1{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100vh;
+    background-color: rgb(160, 185, 222);
+}
+
+/* .rectangle{
+    background-color: rgba(0, 0, 0, 0.297);
+    position:absolute;
+    top: 80px;
+    width: 95%;
+  height: 470px; 
+} */
+.landtext h3{
+    padding-left: 70px;
+}
+.landtext button{
+    background-color: transparent;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    margin-left: 60px;
+}
+
+
+/* Hero section */
+
+
+ .bgimage{
+    background-image: url(./landimage.png);
+    background-size: cover;
+    height: 500px; 
+  
+ }
+ .heroseccontent{
+    padding-top: 200px;
+    color: white;
+    padding-left: 650px;
+ }
+ .heroseccontent h4{
+    padding-left: 60px;
+    margin-bottom: 10px;
+    font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+    
+ 
+ .heroseccontent h1{
+   font-family: "Red Rose", serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: bold;
+
+      
+ }
+    
+
+ .heroseccontent button{
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    padding: 10px 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+ }
+
+
+
+ /* card */
+
+
+ /* .maincard{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+ }
+ .t1{
+    width: 500px;
+    height: 300px;
+ }
+.t2{
+    width: 500px;
+    height: 300px;
+}
+.t3{
+    width: 500px;
+    height: 300px;
+}
+.turf1content{
+    position: relative;
+    top: -180px;
+   background-color: rgba(0, 0, 0, 0.393);
+   color: white;
+   border-radius: 10px;
+   padding: 10px 5px;
+}
+.turf1content h3{
+padding-bottom: 10px;
+}
+.turf1content p{
+    padding-bottom: 10px;
+}
+.turf1content button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+ 
+} */
+
+
+
+/* card sectiopn */
+
+
+ .maincard{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+   
+ }
+ .card1{
+    background-image: url(./turf1.png);
+    background-size: cover;
+border-radius: 10px;
+    background-repeat: no-repeat;
+    padding: 180px 10px 20px 10px;
+    flex-basis: 25%;
+    flex-grow: 1;
+   
+ }
+ .overlay{
+    background-color: rgba(0, 0, 0, 0.495);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+ }
+ .card2{
+    background-image: url(./turf2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px 10px 20px 10px;
+    flex-basis: 25%;
+    flex-grow: 1;
+    border-radius: 10px;
+   
+ }
+ 
+ .card1 button{
+    /* background-color: orange; */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+ }
+ .card1 h3{
+    padding-bottom: 5px;
+ }
+ .card1 p{
+    padding-bottom: 5px;
+ }
+ .card2 button{
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+ }
+ .card2 h3{
+    padding-bottom: 5px;
+ }
+ .card2 p{
+    padding-bottom: 5px;
+ }
+ 
+
+
+
+ /* map section */
+ /* map section */
+ /* map section */
+
+ .rectangle{
+   background-color: rgba(0, 0, 0, 0.144);
+   width: 100%;
+   height: 200px;
+   margin-top: 100px;
+   border-radius: 20px;
+   margin-bottom: 100px;
+ }
+ .mapimg{
+   width: 500px;
+   height: 300px;
+   position: relative;
+   bottom: 210px;
+   left: 30px; 
+   box-shadow: 2px 2px 10px;
+   border-radius: 20px;
+   
+   
+ }
+ .mapimg img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px; 
+ }
+ .cont{
+   padding-left: 800px;
+   padding-top: 60px;
+   font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.833);
+  
+ }
+ .cont button{
+   background-color: green;
+   color: white;
+   padding: 20px 50px;
+   border: none;
+   border-radius: 8px;
+   margin-left: 150px;
+ }
+ .cont h3{
+   font-size: larger;
+   margin-bottom: 20px; 
+ }
+.world{
+   color: green;
+   font-size: 30px;
+}
+
+ /* My Turf section */
+  /* My Turf section */
+   /* My Turf section */
+
+   .fballl{
+      width: 100%;
+      height: 500px;
+   
+        
+   }
+   .cont2{
+      color: rgb(0, 0, 0);
+      padding-left: 600px;
+
+   }
+   .mapsec p{
+    
+   }
+   
+  
+
+
+
+  
+ 
+ 
